@@ -87,6 +87,10 @@ button{
 label{
     font-weight: 600;
 }
+.date-picker::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+
 .btn-control{
     width: 100px;
     background-color: white;
