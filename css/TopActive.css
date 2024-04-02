@@ -14,6 +14,7 @@ body{
 .outer-box{
     width: 100%;
     display: flex;
+
     justify-content: center;
     margin-top: 4%;    
 }
@@ -87,6 +88,9 @@ button{
 label{
     font-weight: 600;
 }
+.date-picker::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
 .btn-control{
     width: 100px;
     background-color: white;
@@ -102,3 +106,8 @@ label{
     cursor: pointer;
 }
 
+/* table css */
+.table-data{
+    width: 100%;
+    color: white;
+}
